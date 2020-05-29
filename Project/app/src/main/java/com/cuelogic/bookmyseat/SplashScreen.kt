@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.util.Log
 
 class SplashScreen : AppCompatActivity() {
 
@@ -18,10 +19,12 @@ class SplashScreen : AppCompatActivity() {
         Handler().postDelayed({
             var session = User(MainActivity@this)
             var value = session.getUId()
+            Log.d("Name","isssss ${session.getUId()}")
             if (value!="") {
                 startActivity(
                     Intent(this, SeatBookActivity::class.java)
                 )
+                Log.d("Name","isssss ${session.getUId()}")
                 finish()
             }
             else
