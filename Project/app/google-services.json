@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "660538775394",
+    "firebase_url": "https://bookmyseatapp-53c0d.firebaseio.com",
+    "project_id": "bookmyseatapp-53c0d",
+    "storage_bucket": "bookmyseatapp-53c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660538775394:android:653792cda4f0ef6631fe3b",
+        "android_client_info": {
+          "package_name": "com.cuelogic.bookmyseat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660538775394-0cpfv35jn5ev4t2b4lqs6ptubpfst3nk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cuelogic.bookmyseat",
+            "certificate_hash": "3d818bb06f5358f9147d583e3619bc8bd926838c"
+          }
+        },
+        {
+          "client_id": "660538775394-ss3ph42vl8ofchlglfksh8smrmoimo6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLS-Wc02TBqdJRq_Nxm_C_lpnyNUABk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660538775394-ss3ph42vl8ofchlglfksh8smrmoimo6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
